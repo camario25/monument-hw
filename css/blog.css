@@ -1,0 +1,175 @@
+nav {
+  text-align: center;
+}
+nav a {
+  color: #9f9f9f;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1.5em 4em;
+}
+.hamburger {
+	display: none;
+}
+
+header {
+  background-image: url("../images/blog_header_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 48px;
+  margin-top: 14px;
+}
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  letter-spacing: 6px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+main {
+  display: flex;
+  align-content: space-around;
+}
+
+h3 {
+  color: #666666;
+  text-align: left;
+}
+h2 {
+  color: #666666;
+  text-align: left;
+}
+body {
+  width: auto;
+  margin: 0 7em;
+  font-family: "Raleway", "Verdana", sans-serif;
+}
+.recent a {
+  color: #9f9f9f;
+  text-decoration: none;
+}
+p {
+  color: #666666;
+  font-family: "Lato", "Verdana" sans-serif;
+}
+section {
+  flex-direction: column;
+  width: 33.3333%;
+  padding-left: 2em;
+  padding-right: 8em;
+}
+article {
+  width: 66.6666%;
+  padding-right: 2em;
+  padding-left: 8em;
+}
+#leave {
+  text-align: center;
+}
+form {
+  margin: auto;
+  padding: 0 5em 5em 4em;
+}
+.inputTop {
+  display: flex;
+  justify-content: space-between;
+}
+.inputTop input{
+  width: 50%;
+  height: 2em;
+  margin: 1em 0;
+  border: solid 2px;
+  border-color: #666666;
+  padding: 0 .75em;
+}
+#name {
+  margin-right: 1em;
+}
+#email {
+  margin-left: 1em;
+}
+.inputBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+textarea {
+  border: solid 2px;
+  border-color: #666666;
+  height: 9em;
+  padding-left: .75em;
+}
+#submit {
+  margin-top: 1em;
+  border: solid 2px;
+  border-color: #666666;
+  height: 3em;
+}
+footer {
+  background-color: #a7d2ff;
+  text-align: center;
+  height: 190%;
+  width: 100%;
+}
+.social a {
+  text-decoration: none;
+  color: #666666;
+  text-align: center;
+}
+.social img {
+  max-width: 2%;
+  max-height: 2%;
+  display: inline-block;
+  margin: 1em 1em;
+}
+#user {
+  margin-bottom: 3em;
+  text-align: center;
+  height: 2em;
+  width: 25%;
+}
+button{
+  border: solid 2px;
+  border-color: #666666;
+  height: 2.5em;
+  width: 20%;
+  color: #666666;
+}
+#copyright {
+  color: #999999;
+  border-top: 1px solid;
+  padding-top: 1em;
+}
+img {
+  max-width: 100%;
+}
+@media only screen and (max-width: 560px){
+.hamburger {
+	display: block;
+	color: #fff;
+  font-size: 1.7rem;
+	position: absolute;
+	top: 10px;
+	left: 2px;
+  }
+  nav a {
+    display: none;
+  }
+  html {
+    font-size: 14px;
+  }
+  main {
+    flex-direction: column;
+    /* width: 100%;
+    justify-content: center; */
+  }
+  section {
+
+  }
+}
