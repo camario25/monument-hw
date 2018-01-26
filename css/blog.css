@@ -164,12 +164,18 @@ img {
   html {
     font-size: 14px;
   }
+  body {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
   main {
-    flex-direction: column;
-    /* width: 100%;
-    justify-content: center; */
+    display: block;
+    margin: auto;
+    width: 100%;
   }
   section {
-
+    display: block;
+    margin: auto;
   }
 }
