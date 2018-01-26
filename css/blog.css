@@ -16,7 +16,7 @@ header {
   background-image: url("../images/blog_header_bg.jpg");
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 22em;
   margin-bottom: 48px;
   margin-top: 14px;
 }
@@ -46,7 +46,6 @@ h2 {
   text-align: left;
 }
 body {
-  width: auto;
   margin: 0 7em;
   font-family: "Raleway", "Verdana", sans-serif;
 }
@@ -155,17 +154,23 @@ img {
 	color: #fff;
   font-size: 1.7rem;
 	position: absolute;
-	top: 10px;
-	left: 2px;
+	top: 8px;
+	left: -25px;
+  }
+  .aboutUs {
+    display: none;
+  }
+  .recent {
+    display: none;
   }
   nav a {
     display: none;
   }
   html {
-    font-size: 14px;
+    font-size: 18px;
   }
   body {
-    display: block;
+    display:block;
     margin: auto;
     width: 100%;
   }
@@ -174,8 +179,7 @@ img {
     margin: auto;
     width: 100%;
   }
-  section {
-    display: block;
-    margin: auto;
+  .centered {
+    top: 32%;
   }
 }
