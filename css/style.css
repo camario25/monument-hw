@@ -150,6 +150,9 @@ button{
   width: 20%;
   color: #666666;
 }
+#subscribe {
+  background-color: #a7d2ff;
+}
 #copyright {
   color: #999999;
   border-top: 1px solid;
