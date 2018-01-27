@@ -19,6 +19,7 @@ header {
   height: 50em;
   margin-bottom: 8em;
   margin-top: 12px;
+  background-attachment: fixed;
 }
 
 .centered {
