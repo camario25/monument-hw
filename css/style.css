@@ -17,7 +17,7 @@ header {
   background-position: center;
   background-size: cover;
   height: 50em;
-  margin-bottom: 48px;
+  margin-bottom: 8em;
   margin-top: 12px;
 }
 
@@ -45,7 +45,7 @@ header h4 {
 }
 .archive {
   display: flex;
-  margin: 0 1em;
+  margin: 1em;
 }
 .archive article {
   padding: 1em;
@@ -54,18 +54,43 @@ header h4 {
 .archive button {
   width: 11em;
 }
+.about {
+  text-align: center;
+  background-color: #bafaff;
+  padding: 7em 10em;
+  margin: 5.5em 0 6em 0;
+}
+.about p {
+  width: 40em;
+  text-align: center;
+  margin: 1em auto;
+  line-height: 1.618em;
+}
 .twenty {
   display: flex;
+  margin: 3em;
 }
-main {
-
+.twenty img {
+  margin: .5em;
 }
-
+.photosLeft {
+  margin: 0 2em;
+}
+.photosRight {
+  margin: 0 2em;
+}
+h5 {
+  font-size: 1.2em;
+  color: #666666;
+  text-align: center;
+  margin: 2.5em 0 3.5em 0;
+}
 h3 {
   color: #666666;
   text-align: center;
 }
 h2 {
+  margin: 1em;
   color: #666666;
   text-align: center;
 }
@@ -75,12 +100,6 @@ body {
 p {
   color: #666666;
   font-family: "Lato", "Verdana" sans-serif;
-}
-section {
-
-}
-article {
-
 }
 form {
   margin: auto;
@@ -98,11 +117,9 @@ form {
   border-color: #666666;
   padding: 0 .75em;
 }
-#name {
-  margin-right: 1em;
-}
 #email {
   margin-left: 1em;
+  margin-right: 1em;
 }
 .inputBottom {
   display: flex;
@@ -122,7 +139,7 @@ textarea {
   height: 3em;
 }
 footer {
-  background-color: #a7d2ff;
+  background-color: #bafaff;
   text-align: center;
   height: 190%;
   width: 100%;
@@ -152,7 +169,7 @@ button{
   color: #666666;
 }
 #subscribe {
-  background-color: #a7d2ff;
+  background-color: #bafaff;
 }
 #copyright {
   color: #999999;
