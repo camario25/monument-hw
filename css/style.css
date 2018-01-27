@@ -58,10 +58,10 @@ header h4 {
   text-align: center;
   background-color: #bafaff;
   padding: 7em 10em;
-  margin: 5.5em 0 6em 0;
+  margin: 5.5em auto 6em auto;
 }
 .about p {
-  width: 40em;
+  width: 75%;
   text-align: center;
   margin: 1em auto;
   line-height: 1.618em;
@@ -180,7 +180,11 @@ button{
 img {
   max-width: 100%;
 }
-@media only screen and (max-width: 560px){
+@media only screen and (max-width: 785px) {
+
+
+}
+@media only screen and (max-width: 500px){
 .hamburger {
 	display: block;
 	color: #fff;
@@ -189,29 +193,10 @@ img {
 	top: 8px;
 	left: -25px;
   }
-  .aboutUs {
-    display: none;
-  }
-  .recent {
-    display: none;
-  }
   nav a {
     display: none;
   }
   html {
     font-size: 18px;
-  }
-  body {
-    display:block;
-    margin: auto;
-    width: 100%;
-  }
-  main {
-    display: block;
-    margin: auto;
-    width: 100%;
-  }
-  .centered {
-    top: 32%;
   }
 }
