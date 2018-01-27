@@ -186,6 +186,11 @@ button{
 img {
   max-width: 100%;
 }
+
+/* ===============================================
+Effects
+=============================================== */
+
 img:hover {
   opacity: .7;
 }
@@ -193,6 +198,17 @@ a:hover {
   font-weight: bolder;
   text-decoration: underline;
 }
+button:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+  border: solid 3px;
+  background-color: #bafaff;
+}
+
+/* =========================================== */
+/* Media Queries */
+/* ============================================ */
+
 @media only screen and (max-width: 785px) {
   nav a {
     color: #9f9f9f;
