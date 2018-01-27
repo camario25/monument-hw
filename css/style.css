@@ -57,13 +57,13 @@ header h4 {
 .archive button {
   width: 11em;
 }
-.about {
+#about {
   text-align: center;
   background-color: #bafaff;
   padding: 7em 10em;
   margin: 5.5em auto 6em auto;
 }
-.about p {
+#about p {
   width: 75%;
   text-align: center;
   margin: 1em auto;
@@ -226,11 +226,11 @@ button:hover {
   .archive {
     display: block;
   }
-  .about {
+  #about {
     padding: 4em 6em;
     margin: 5.5em auto 6em auto;
   }
-  .about p {
+  #about p {
     width: 100%;
     text-align: center;
     margin: 1em auto;
@@ -252,7 +252,7 @@ button:hover {
   html {
     font-size: 18px;
   }
-  .about {
+  #about {
     padding: 4em 2em;
   }
 .twenty {
