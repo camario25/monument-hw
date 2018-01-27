@@ -82,6 +82,9 @@ header h4 {
 .photosRight {
   margin: 0 2em;
 }
+.twentySmall {
+  display: none;
+}
 h5 {
   font-size: 1.2em;
   color: #666666;
@@ -223,5 +226,21 @@ img {
   .about {
     padding: 4em 2em;
   }
+.twenty {
+  display: none;
+}
+  .twentySmall {
+    display: flex;
+  }
+  .twentySmall img {
+    margin: .3em;
+  }
+  .twentySmallLeft {
+    margin-left: 1em;
+    margin-right: .3em;
+  }
+  .twentySmallRight {
+    margin-right: 1em;
+    margin-left: .3em;
   }
 }
