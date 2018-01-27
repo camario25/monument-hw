@@ -155,11 +155,11 @@ footer {
   display: inline-block;
   margin: 1em 1em;
 }
-#user {
+#emailSubcribe {
   margin-bottom: 3em;
   text-align: center;
   height: 2em;
-  width: 25%;
+  width: 30%;
 }
 button{
   border: solid 2px;
@@ -170,6 +170,7 @@ button{
 }
 #subscribe {
   background-color: #bafaff;
+  margin-left: 3em;
 }
 #copyright {
   color: #999999;
