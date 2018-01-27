@@ -44,13 +44,12 @@ header h4 {
   font-weight: 300;
 }
 main {
-  display: flex;
-  align-content: space-around;
+
 }
 
 h3 {
   color: #666666;
-  text-align: left;
+  text-align: center;
 }
 h2 {
   color: #666666;
@@ -59,27 +58,15 @@ h2 {
 body {
   font-family: "Raleway", "Verdana", sans-serif;
 }
-.recent a {
-  color: #9f9f9f;
-  text-decoration: none;
-}
 p {
   color: #666666;
   font-family: "Lato", "Verdana" sans-serif;
 }
 section {
-  flex-direction: column;
-  width: 33.3333%;
-  padding-left: 2em;
-  padding-right: 8em;
+
 }
 article {
-  width: 66.6666%;
-  padding-right: 2em;
-  padding-left: 8em;
-}
-#leave {
-  text-align: center;
+
 }
 form {
   margin: auto;
