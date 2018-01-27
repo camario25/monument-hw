@@ -51,6 +51,9 @@ header h4 {
   padding: 1em;
   text-align: center;
 }
+.archive p {
+  line-height: 1.618em;
+}
 .archive button {
   width: 11em;
 }
@@ -181,22 +184,44 @@ img {
   max-width: 100%;
 }
 @media only screen and (max-width: 785px) {
-
-
+  nav a {
+    color: #9f9f9f;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1em 2.5em;
+  }
+  .archive {
+    display: block;
+  }
+  .about {
+    padding: 4em 6em;
+    margin: 5.5em auto 6em auto;
+  }
+  .about p {
+    width: 100%;
+    text-align: center;
+    margin: 1em auto;
+    line-height: 1.618em;
+  }
 }
 @media only screen and (max-width: 500px){
-.hamburger {
-	display: block;
-	color: #fff;
-  font-size: 1.7rem;
-	position: absolute;
-	top: 8px;
-	left: -25px;
-  }
+  .hamburger {
+  	display: block;
+  	color: #fff;
+    font-size: 1.7rem;
+  	position: absolute;
+  	top: 8px;
+  	left: -25px;
+    }
   nav a {
     display: none;
-  }
+    }
   html {
     font-size: 18px;
+  }
+  .about {
+    padding: 4em 2em;
+  }
   }
 }
