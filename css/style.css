@@ -43,6 +43,20 @@ header h4 {
   color: white;
   font-weight: 300;
 }
+.archive {
+  display: flex;
+  margin: 0 1em;
+}
+.archive article {
+  padding: 1em;
+  text-align: center;
+}
+.archive button {
+  width: 11em;
+}
+.twenty {
+  display: flex;
+}
 main {
 
 }
