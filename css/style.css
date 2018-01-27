@@ -186,6 +186,13 @@ button{
 img {
   max-width: 100%;
 }
+img:hover {
+  opacity: .7;
+}
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
 @media only screen and (max-width: 785px) {
   nav a {
     color: #9f9f9f;
