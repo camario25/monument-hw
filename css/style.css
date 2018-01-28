@@ -273,4 +273,19 @@ button:hover {
     margin-right: 1em;
     margin-left: .3em;
   }
+  form {
+    padding: 0 1em 1em 1em;
+  }
+  .inputTop {
+    flex-direction: column;
+    margin-bottom: .5em;
+  }
+  .inputTop input {
+    width: 94.5%;
+    margin: .5em 0;
+  }
+  #email {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
