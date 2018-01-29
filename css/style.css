@@ -180,6 +180,9 @@ button{
   background-color: #bafaff;
   margin-left: 3em;
 }
+.emailSubSmall {
+  display: none;
+}
 #copyright {
   color: #999999;
   border-top: 1px solid;
@@ -287,5 +290,26 @@ button:hover {
   #email {
     margin-left: 0;
     margin-right: 0;
+  }
+  .social img {
+    max-width: 5%;
+    max-height: 5%;
+  }
+  .emailSubLarge {
+    display: none;
+  }
+  .emailSubSmall {
+    display: block;
+  }
+  #emailSubcribe {
+    margin-bottom: 1em;
+    text-align: center;
+    height: 2em;
+    width: 85%;
+  }
+  #subscribe {
+    background-color: #bafaff;
+    width: 85%;
+    margin: 0;
   }
 }
