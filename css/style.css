@@ -195,6 +195,11 @@ img {
 a {
   transition: text-decoration ease-in-out;
 }
+.error {
+  border: 2px solid #ED5254;
+  color: #ED5254;
+  display: none;
+}
 
 /* ===============================================
 Effects
