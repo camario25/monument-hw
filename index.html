@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="" type="text/javascript">
-
-    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -89,21 +86,23 @@
     <form>
       <div class="inputTop">
         <div id="input1">
-        <input type="text" name="name" placeholder="NAME" required>
-          <p>test</p>
+        <input type="text" name="name" placeholder="NAME">
+          <p class="errorMessage">Please insert a name</p>
           </div>
           <div id="input2">
-        <input id="email" type="text" name="email" placeholder="EMAIL" required>
-        <p> test2</p>
+        <input id="email" type="text" name="email" placeholder="EMAIL">
+        <p class="errorMessage">Please enter an email</p>
       </div>
       <div id="input3">
-        <input type="text" name="subject" placeholder="SUBJECT">
-        <p>test3</p>
+        <input id="subject" type="text" name="subject" placeholder="SUBJECT">
+        <p class="errorMessage">Please enter the subject</p>
       </div>
     </div>
       <div class="inputBottom">
+        <div id="input4">
         <textarea placeholder="MESSAGE"></textarea>
-        <p>Test Language</p>
+        <p class="errorMessage">Please enter a message</p>
+      </div>
         <input id="submit" type="submit" name="submit" value="SUBMIT">
       </div>
     </form>
@@ -128,5 +127,6 @@
       <p id="copyright">© 2018 Mario Alcantar</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/main.js" type="text/javascript"></script>
   </body>
 </html>

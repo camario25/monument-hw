@@ -114,10 +114,11 @@ form {
 }
 .inputTop {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .inputTop input{
-  width: 50%;
+  width: 30em;
+  /* width: 50%; */
   height: 2em;
   margin: 1em 0;
   border: solid 2px;
@@ -138,12 +139,23 @@ textarea {
   border-color: #666666;
   height: 9em;
   padding-left: .75em;
+  width: 96.5em;
 }
 #submit {
   margin-top: 1em;
   border: solid 2px;
   border-color: #666666;
   height: 3em;
+}
+.errorMessage {
+text-align: left;
+font-size: .9rem;
+color: #ED5254;
+margin: 0 0 .5em 0;
+display: none;
+}
+.inputFilled{
+  border-color: green;
 }
 footer {
   background-color: #bafaff;
@@ -198,7 +210,6 @@ a {
 .error {
   border: 2px solid #ED5254;
   color: #ED5254;
-  display: none;
 }
 
 /* ===============================================
